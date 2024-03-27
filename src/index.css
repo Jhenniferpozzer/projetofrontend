@@ -1,13 +1,57 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+:root {
+  --dark-blue: #001011;
+  --blue-100: #007bff;
+  --blue-200: #0056b3;
+  --white-color: #fff;
+  --black-color: #000000;
+  --gray-50: #eee;
+  --gray-100: #ddd;
+  --gray-200: #b3b3b3;
+  --gray-300: #ccc;
+}
+button.button-site {
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--blue-100);
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 2px 3px 4px var(--gray-300);
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
